@@ -8,8 +8,6 @@
         $Correo=$_POST["correo"];
         $Codigo=$_POST["codigo"];
         $Contraseña=$_POST["contraseña"];
-
-        include ("conexion.php")
-
+        include ("conexion.php");
     }
 ?>

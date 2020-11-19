@@ -28,7 +28,7 @@
         <div class="col-12 ml-5">
             <div class="card-deck text-center ">
                 <div class="card border-dark">
-                    <a href="#" target="_blank">
+                    <a href="internal_pages/InicioSesionUbGI.php" target="_blank">
                         <img id="img1" src="img/img3.jpeg" class="card-img-top img-thumbnail">
                     </a>
                     <div class="card-body">
@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="card border-dark">
-                    <a href="#" target="_blank">
+                    <a href="internal_pages/registrarseUBI.php" target="_blank">
                         <img id="img3" src="img/img2.jpeg" class="card-img-top img-thumbnail">
                     </a>
                     <div class="card-body">

@@ -21,7 +21,7 @@
     </div>
     
     
-    <form action="models/login.php" method="POST">
+    <form action="insertAdmin.php" method="POST">
         <div>
 			<?php if(isset($_SESSION['message1'])) { ?>
 				<div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -35,7 +35,7 @@
         <div class="form-group">
             <label>Correo:</label>
             <div class="input-group-prepend">
-                <input type="text" class="field" name="correo">
+                <input type="text" class="field" name="correo" >
                 <spand class="input-group-text">@uniboyaca.edu.co</span> 
             </div>
         </div>
