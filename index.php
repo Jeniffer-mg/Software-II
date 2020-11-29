@@ -16,16 +16,18 @@
 
 <body>
 
-    <div class="jumbotron">
-        <div class="container text-center">
+    <div class="row m-5">
+        <div class="col-4">
             <img id="logo" src="img/iconoub.jpg" alt="Logo UB" class="img-thumbnail">
+        </div>
+        <div class="col-4 text-center">
             <h1 class="display-1 mb-3">SICLAIG</h1>
             <hr>
         </div>
     </div>
 
-    <div class="row pt-3">
-        <div class="col-12 ml-5">
+    <div class="row">
+        <div class="col-12 m-5">
             <div class="card-deck text-center ">
                 <div class="card border-dark">
                     <a href="internal_pages/InicioSesionUbGI.php" target="_blank">
@@ -62,26 +64,37 @@
     </div>
     </div>
 
-    <hr>
-    <br>
-    <br>
-    <hr>
-    <br>
-    <div class="footer">
-        <div class="container">
-            <div class="col-sm-6 redes">
+    <div class="footer m-5 ">
+        <div class="row " >
+            <div class="container">
+                <div class="col-12 redes">
 
-                <div class="row-12">
-                    <div class="card-deck text-center ">
-                            <a href="https://instagram.com/universidad_de_boyaca?igshid=3mkbimm6w2wp"
-                                class="icono icon-instagram instagram" target="_blank"></a>
-                            <a href="https://www.facebook.com/universidaddeboyaca/"
-                                class="icono icon-facebook-squared facebook" target="_blank"></a>
-                            <a href="https://www.linkedin.com/in/universidad-de-boyacá-6b243771"
-                                class="icono icon-user linkedin" target="_blank"></a>
-                            <a href="#" class="icono icon-mail mail" target="_blank"></a>
-                        
+                    <div class="row m-5 align-content-center" style="width: 100rem;">
+                        <div class="card-deck text-center ">
+                                <a href="https://instagram.com/universidad_de_boyaca?igshid=3mkbimm6w2wp"
+                                    class="icono icon-instagram instagram" target="_blank"></a>
+                                <a href="https://www.facebook.com/universidaddeboyaca/"
+                                    class="icono icon-facebook-squared facebook" target="_blank"></a>
+                                <a href="https://www.linkedin.com/in/universidad-de-boyacá-6b243771"
+                                    class="icono icon-user linkedin" target="_blank"></a>
+                                <a href="#" class="icono icon-mail mail" target="_blank"></a>
 
+                        </div>
+                    </div>
+                    <div class="col-8 m-5">
+                            <div class="card border-dark">
+                                <div class="card-body">
+                                    <h1 class="card-title ">Contacto</h1>
+                                    <h2 class="card-title lead">Correo Institucional:</h2>
+                                    <p class="card-text lead">soporteinstitucional@uniboyaca.edu.co</p>
+                                    <p class="card-text lead">Tel: 3128564791</p>
+                                    <p class="card-text lead">Dirección: Av. Universitaria</p>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <!--<div class="col-6">
                         <div class="card border-dark">
                             <div class="card-body">
                                 <h1 class="card-title display-4 mb-3 text-center">Contacto</h1>
@@ -91,26 +104,12 @@
                                 <p class="card-text lead">Dirección: Av. Universitaria</p>
                             </div>
                         </div>
+                    </div>-->
 
-                    </div>
+
                 </div>
 
-
-                <!--<div class="col-6">
-                    <div class="card border-dark">
-                        <div class="card-body">
-                            <h1 class="card-title display-4 mb-3 text-center">Contacto</h1>
-                            <h2 class="card-title lead">Correo Institucional:</h2>
-                            <p class="card-text lead">soporteinstitucional@uniboyaca.edu.co</p>
-                            <p class="card-text lead">Tel: 3128564791</p>
-                            <p class="card-text lead">Dirección: Av. Universitaria</p>
-                        </div>
-                    </div>
-                </div>-->
-
-
             </div>
-
         </div>
     </div>
 
